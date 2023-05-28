@@ -16,6 +16,7 @@ namespace Lalalend_3.core
     internal class ChartPresenter : IChartPresenter
     {
         /// <summary>
+        /// 
         /// Словарь, содержащий фабрику для каждой команды.
         /// </summary>
         /// <example>
@@ -25,6 +26,7 @@ namespace Lalalend_3.core
             = new Dictionary<string, Func<AbstractCommandFactory>>()
             {
               {"Курс рубля ", () => new CurrenciesCommandFactory()},
+
 
             };
 
