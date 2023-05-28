@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\core\commands\AbstractCommandFactory.cs" />
+    <Compile Include="src\core\commands\gases_command\GasesCommand.cs" />
     <Compile Include="src\core\commands\сurrencies_сommand\CurrenciesCommand.cs" />
     <Compile Include="src\core\commands\сurrencies_сommand\CurrenciesCommandFactory.cs" />
     <Compile Include="src\core\presenter\ChartPresenter.cs" />
@@ -92,5 +93,6 @@
     <None Include="Resources\vector-abstract-financial-chart-with-uptrend-line-graph-and-numbers-in-stock-market-on-gradient-white-color-background.jpg" />
     <Content Include="vector-abstract-financial-chart-with-uptrend-line-graph-and-numbers-in-stock-market-on-gradient-white-color-background.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
