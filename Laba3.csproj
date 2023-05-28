@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\core\commands\AbstractCommandFactory.cs" />
+    <Compile Include="src\core\commands\gases_command\GasesCommandFactory.cs" />
     <Compile Include="src\core\commands\gases_command\GasesCommand.cs" />
     <Compile Include="src\core\commands\сurrencies_сommand\CurrenciesCommand.cs" />
     <Compile Include="src\core\commands\сurrencies_сommand\CurrenciesCommandFactory.cs" />
