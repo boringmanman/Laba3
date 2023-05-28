@@ -6,6 +6,7 @@ namespace Lalalend_3.src.core.commands
     /// <summary>
     /// Абстрактная фабрика для запуска команды.
     /// </summary>
+    /// 
     public abstract class AbstractCommandFactory
     {
         public AbstractCommandFactory() { }
