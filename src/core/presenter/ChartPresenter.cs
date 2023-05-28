@@ -17,6 +17,7 @@ namespace Lalalend_3.core
     {
         /// <summary>
         /// 
+        /// 
         /// Словарь, содержащий фабрику для каждой команды.
         /// </summary>
         /// <example>
